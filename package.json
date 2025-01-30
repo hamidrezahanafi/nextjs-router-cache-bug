@@ -1,25 +1,30 @@
 {
-  "name": "prefetching-vanilla-extract",
+  "name": "nextjs-router-cache-bug",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build -d",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@vanilla-extract/css": "^1.17.0",
+    "next": "15.1.0",
+    "@vanilla-extract/sprinkles": "^1.6.3",
+    "@vanilla-extract/dynamic": "^2.1.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.4"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vanilla-extract/next-plugin": "^2.4.8",
     "eslint": "^9",
     "eslint-config-next": "15.1.4",
-    "@eslint/eslintrc": "^3"
-  }
+    "typescript": "^5"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
