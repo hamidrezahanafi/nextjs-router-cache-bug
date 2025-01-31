@@ -1,6 +1,4 @@
 import type { NextConfig } from "next";
-import { createVanillaExtractPlugin } from '@vanilla-extract/next-plugin';
-const withVanillaExtract = createVanillaExtractPlugin();
 
 const nextConfig: NextConfig = {
   assetPrefix: "http://localhost:3000",
@@ -45,4 +43,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withVanillaExtract(nextConfig);
+export default nextConfig;

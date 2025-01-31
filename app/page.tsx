@@ -1,27 +1,11 @@
 import Image from "next/image";
-import Links from "./Links";
-// import LinksNext from "./LinksNext";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       <main>
-        <Image
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <Links />
-        {/* <LinksNext /> */}
+        <Link href="/link1">Link 1</Link>
       </main>
       <footer>
         <a
